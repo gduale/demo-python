@@ -56,6 +56,9 @@ print(ma_liste)
 ma_liste.remove("Bleu")
 print(ma_liste)
 
+#Afficher un élément de la liste, ici '3' est un index, ça affichera "Bleu".
+print(ma_liste[3])
+
 #Boucle sur une liste
 for elements in ma_liste:
     print(elements)
