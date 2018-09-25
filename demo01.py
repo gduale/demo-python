@@ -16,6 +16,9 @@ print(mon_dictionnaire)
 mon_dictionnaire["Sièges"] = 5
 print(mon_dictionnaire)
 
+#Afficher une valeur de clé
+print(mon_dictionnaire["Moteur"])
+
 #Suppression d'une entrée dans le dictionnaire
 del mon_dictionnaire["Portes"]
 print(mon_dictionnaire)
