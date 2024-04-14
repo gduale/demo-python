@@ -1,71 +1,71 @@
 #!/usr/bin/env python3
 
-#Création d'un dictionnaire
-mon_dictionnaire = dict()
-mon_dictionnaire2 = {}
+# Creating a dictionary
+my_dictionary = dict()
+my_dictionary2 = {}
 
-#Afficher le type pour vérification
-print(type(mon_dictionnaire))
-print(type(mon_dictionnaire2))
+# Displaying the type for verification
+print(type(my_dictionary))
+print(type(my_dictionary2))
 
-#Remplir le dictionnaire (clé : valeur)
-mon_dictionnaire = {"Voiture":"Yaris","Moteur":"4ch","Portes":5}
-print(mon_dictionnaire)
+# Filling the dictionary (key: value)
+my_dictionary = {"Car": "Yaris", "Engine": "4ch", "Doors": 5}
+print(my_dictionary)
 
-#Ajout d'une entrée dans le dictionnaire
-mon_dictionnaire["Sièges"] = 5
-print(mon_dictionnaire)
+# Adding an entry to the dictionary
+my_dictionary["Seats"] = 5
+print(my_dictionary)
 
-#Afficher une valeur de clé
-print(mon_dictionnaire["Moteur"])
+# Displaying a key's value
+print(my_dictionary["Engine"])
 
-#Suppression d'une entrée dans le dictionnaire
-del mon_dictionnaire["Portes"]
-print(mon_dictionnaire)
+# Deleting an entry from the dictionary
+del my_dictionary["Doors"]
+print(my_dictionary)
 
-#Boucle sur les clés d'un dictionnaire
-for cle in mon_dictionnaire.keys():
-    print(cle)
+# Looping through dictionary keys
+for key in my_dictionary.keys():
+    print(key)
 
-#Boucle sur les valeurs d'un dictionnaire
-for valeurs in mon_dictionnaire.values():
-    print(valeurs)
+# Looping through dictionary values
+for value in my_dictionary.values():
+    print(value)
 
-#Boucle sur un dictionnaire (clé et valeurs)
-for cle,valeur in mon_dictionnaire.items():
-    print(cle, valeur)
+# Looping through a dictionary (keys and values)
+for key, value in my_dictionary.items():
+    print(key, value)
 
-#Création d'une liste
-ma_liste = list()
-ma_liste2 = []
+# Creating a list
+my_list = list()
+my_list2 = []
 
-#Affichage du type pour vérification
-print(type(ma_liste))
-print(type(ma_liste2))
+# Displaying the type for verification
+print(type(my_list))
+print(type(my_list2))
 
-#Remplir la liste
-ma_liste = [1,2,3,"Bleu"]
-print(ma_liste)
+# Filling the list
+my_list = [1, 2, 3, "Blue"]
+print(my_list)
 
-#Ajout d'une entrée dans la liste
-ma_liste.append(4)
-print(ma_liste)
-ma_liste.append("Violet")
-print(ma_liste)
+# Adding an entry to the list
+my_list.append(4)
+print(my_list)
+my_list.append("Purple")
+print(my_list)
 
-#Supprimer une entrée dans la liste
-del ma_liste[0]
-print(ma_liste)
-ma_liste.remove("Bleu")
-print(ma_liste)
+# Removing an entry from the list
+del my_list[0]
+print(my_list)
+my_list.remove("Blue")
+print(my_list)
 
-#Afficher un élément de la liste, ici '3' est un index, ça affichera "Bleu".
-print(ma_liste[3])
+# Displaying an element of the list, here '3' is an index, it will display "Blue".
+print(my_list[3])
 
-#Boucle sur une liste
-for elements in ma_liste:
-    print(elements)
+# Looping through a list
+for element in my_list:
+    print(element)
 
-#Boucle avec prise en compte de l'index
-for elements in enumerate(ma_liste):
-    print(elements)
+# Looping with consideration of the index
+for index, element in enumerate(my_list):
+    print(index, element)
